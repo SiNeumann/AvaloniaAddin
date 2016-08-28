@@ -1,7 +1,14 @@
 <AddinProject appVersion="6.0">
+	<Header>
+        <Name>Template for Avalonia</Name>
+        <Description>Provides templates for Avalonia </Description>
+        <Author>Sigi Neumann</Author>
+        <Url>https://github.com/SiNeumann/AvaloniaAddin</Url>
+    </Header>
 	<Project platforms="Win32 Mac Linux">
-		<AddinFile>bin/Debug/MonoDevelop.AddinMaker.dll</AddinFile>
-		<BuildFile>MonoDevelop.AddinMaker.sln</BuildFile>
+		<AddinFile>AvloniaAddin/bin/Debug/MonoDevelop.AddinMaker.dll</AddinFile>
+		<BuildFile>AvaloniaAddin.sln</BuildFile>
 		<BuildConfiguration>Debug</BuildConfiguration>
+		
 	</Project>
 </AddinProject>
