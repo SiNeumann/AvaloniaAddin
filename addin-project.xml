@@ -6,7 +6,7 @@
         <Url>https://github.com/SiNeumann/AvaloniaAddin</Url>
     </Header>
 	<Project platforms="Win32 Mac Linux">
-		<AddinFile>AvloniaAddin/bin/Debug/MonoDevelop.AddinMaker.dll</AddinFile>
+		<AddinFile>AvloniaAddin/bin/Debug/AvaloniaAddin.dll</AddinFile>
 		<BuildFile>AvaloniaAddin.sln</BuildFile>
 		<BuildConfiguration>Debug</BuildConfiguration>
 		
