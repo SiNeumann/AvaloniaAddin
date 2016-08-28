@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Template Originator="Sigi Neumann" Language="C#" Created="16/08/2016" LastModified="3/09/2001">
+	
+	<TemplateConfiguration>
+		<_Name>Avalonia UserControl</_Name>
+		<Icon>md-text-file-icon</Icon>
+		<_Category>General</_Category>
+		<LanguageName>C#</LanguageName>
+		<_Description>Creates an empty UserControl with CodeBehind</_Description>
+		<DefaultFilename>EmptyXAMLFile</DefaultFilename>
+	</TemplateConfiguration>
+	
+	<TemplateFiles>
+		<File name="${Name}.xaml">
+			<![CDATA[< UserControl xmlns="https://github.com/avaloniaui" >
+			</UserControl>]]>
+
+		</File>
+		<File  Name="${Name}.xaml.cs" DependsOn="${Name}.xaml" >
+			using Avalonia.Controls;
+			using Avalonia.Markup.Xaml;
+
+		namespace  ${Namespace}
+		{
+    		public class ${Name} : UserControl
+    	{
+        	public ${Name}()
+        	{
+           	 	this.InitializeComponent();
+       		 }
+
+       		 private void InitializeComponent()
+        {
+            AvaloniaXamlLoader.Load(this);
+        }
+    }
+}
+		</File>
+	</TemplateFiles>
+	
+	<FileOptions/>
+	
+</Template>

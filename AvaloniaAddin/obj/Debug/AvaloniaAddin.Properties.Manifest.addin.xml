@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	 <Extension path = "/MonoDevelop/Ide/FileTemplates">
+		<FileTemplate id = "Xaml with code behind" resource = "AvaloniaAddin.Xaml.xft.xml"/>
+		
+	</Extension>
+	<Extension path = "/MonoDevelop/Ide/ProjectTemplates">
+		<ProjectTemplate id   = "EmptyAvalonProject"
+		                 resource="AvaloniaAddin.AvalonProject.xpt.xml" />
+		
+		</Extension>
+	<Extension path = "/MonoDevelop/ProjectModel/ProjectModelExtensions">
+		<Condition id="MSBuildTargetIsAvailable" target="$(MSBuildExtensionsPath)\Microsoft\Portable\v4.5\Microsoft.Portable.CSharp.targets">
+			<ProjectFlavor  type="AvaloniaAddin.AvaloniaProjectFlavour" alias="AvaloniaPortable"/>
+		</Condition>
+	</Extension>
+</ExtensionModel>

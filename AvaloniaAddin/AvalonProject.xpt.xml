@@ -1,0 +1,160 @@
+﻿<?xml version="1.0"?>
+<Template>
+	<TemplateConfiguration>
+		<_Name>AvalonProject</_Name>
+		<_Category>C#</_Category>
+		<LanguageName>C#</LanguageName>
+	</TemplateConfiguration>
+	<Actions>
+	</Actions>
+	<Combine name="${ProjectName}" directory=".">
+		
+		<Project   name="${ProjectName}" directory="." >
+			<Options Target="WinExe"  TargetFrameworkVersion = ".NETPortable,Version=v4.5,Profile=Profile7"  >
+
+		</Options>
+			<References>
+				
+			</References>
+			<Packages>
+<package id="Avalonia" version="0.4.0" targetFramework="portable-net45+win" />
+				
+				
+  <package id="Serilog" version="1.5.14" targetFramework="portable-net45+win+wp80" />
+  <package id="Splat" version="1.6.2" targetFramework="portable-net45+win+wp80" />
+  <package id="Sprache" version="2.0.0.50" targetFramework="portable-net45+win+wp80" />
+  <package id="System.Reactive" version="3.0.0" targetFramework="portable-net45+win+wp80" />
+  <package id="System.Reactive.Core" version="3.0.0" targetFramework="portable-net45+win" />
+  <package id="System.Reactive.Interfaces" version="3.0.0" targetFramework="portable-net45+win+wp80" />
+  <package id="System.Reactive.Linq" version="3.0.0" targetFramework="portable-net45+win" />
+  <package id="System.Reactive.PlatformServices" version="3.0.0" targetFramework="portable-net45+win+wp80" />
+				 
+			</Packages>
+
+				
+			
+			<Files>
+
+				
+				<File name="MainWindow.xaml"  BuildAction="EmbeddedResource">
+			<![CDATA[<Window xmlns="https://github.com/avaloniaui" >
+			</Window>]]>
+
+		</File>
+
+		<File  name="MainWindow.xaml.cs" DependsOn="MainWindow.xaml" >
+			using Avalonia.Controls;
+			using Avalonia.Markup.Xaml;
+
+		namespace  ${ProjectName}
+		{
+    		public class MainWindow : Window
+    	{
+        	public MainWindow()
+        	{
+           	 	this.InitializeComponent();
+       		 }
+
+       		private void InitializeComponent()
+			{
+			var theme = new Avalonia.Themes.Default.DefaultTheme();
+			 theme.FindResource("Button");
+			AvaloniaXamlLoader.Load(this);
+			}
+    }
+}
+		</File>
+		<File  name="App.xaml" BuildAction="EmbeddedResource" >
+					<![CDATA[
+
+					<Application xmlns="https://github.com/avaloniaui">
+  <Application.Styles>
+    <StyleInclude Source="resm:Avalonia.Themes.Default.DefaultTheme.xaml?assembly=Avalonia.Themes.Default"/>
+    <StyleInclude Source="resm:Avalonia.Themes.Default.Accents.BaseLight.xaml?assembly=Avalonia.Themes.Default"/>
+
+    <Style Selector="TextBlock.h1">
+      <Setter Property="Foreground" Value="#212121"/>
+      <Setter Property="FontSize" Value="20"/>
+      <Setter Property="FontWeight" Value="Medium"/>
+    </Style>
+
+    <Style Selector="TextBlock.h2">
+      <Setter Property="Foreground" Value="#727272"/>
+      <Setter Property="FontSize" Value="13"/>
+    </Style>
+
+   
+  </Application.Styles>
+</Application>
+					
+					]]>
+			
+		</File>
+		<File name="App.xaml.cs" DependsOn="App.xaml">
+			using Avalonia;
+using Avalonia.Markup.Xaml;
+
+namespace ${ProjectName}
+{
+    public class App : Application
+    {
+        public override void Initialize()
+        {
+            AvaloniaXamlLoader.Load(this);
+        }
+    }
+}
+
+					
+
+		</File>
+		<File  name="Program.cs" >
+					<![CDATA[
+		using System;
+		using System.Linq;
+		using Avalonia;
+		using Avalonia.Controls;
+		using Avalonia.Logging.Serilog;
+		using Avalonia.Platform;
+		using Serilog;
+		namespace  ${ProjectName} {
+		internal class Program
+    {
+        static void Main(string[] args)
+        {
+            InitializeLogging();
+
+            // TODO: Make this work with GTK/Skia/Cairo depending on command-line args
+            // again.
+            AppBuilder.Configure<App>()
+                .UsePlatformDetect()
+                .Start<MainWindow>();
+        }
+
+        // This will be made into a runtime configuration extension soon!
+        private static void InitializeLogging()
+        {
+#if DEBUG
+            
+#endif
+        }
+
+        private static void ConfigureAssetAssembly(AppBuilder builder)
+        {
+           // AvaloniaLocator.CurrentMutable
+             //   .GetService<IAssetLoader>()
+              //  .SetDefaultAssembly(typeof(App).Assembly);
+        }
+    }}]]>
+
+					
+
+	
+		</File>
+				
+			</Files>
+			<Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+		</Project>
+
+	</Combine>
+</Template>

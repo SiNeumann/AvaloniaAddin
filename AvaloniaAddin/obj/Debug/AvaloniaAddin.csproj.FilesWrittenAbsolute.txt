@@ -1,0 +1,17 @@
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/_Manifest.addin.xml
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/AvaloniaAddin.Properties.Manifest.addin.xml
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/AvaloniaAddin.Xaml.xft.xml
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/AvaloniaAddin.obj.Debug._Manifest.addin.xml
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/bin/Debug/Xaml.xft.xml
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/bin/Debug/AvaloniaAddin.dll.mdb
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/bin/Debug/AvaloniaAddin.dll
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/AvaloniaAddin.dll
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/AvaloniaAddin.dll.mdb
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/AvaloniaAddin.AvalonProject.xpt.xml
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/bin/Debug/AvalonProject.xpt.xml
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/AvaloniaAddin.Assemblies.Avalonia.Cairo.dll
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/AvaloniaAddin.Assemblies.Avalonia.Gtk.dll
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/bin/Debug/Assemblies/Avalonia.Cairo.dll
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/bin/Debug/Assemblies/Avalonia.Gtk.dll
+/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/obj/Debug/AvaloniaAddin.Program.cs

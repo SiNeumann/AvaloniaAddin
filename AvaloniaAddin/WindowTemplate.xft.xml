@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Template>
+	<TemplateConfiguration>
+		<_Name>WindowTemplate</_Name>
+	</TemplateConfiguration>
+	<TemplateFiles>
+			<File name="$(Name).xaml"  BuildAction="EmbeddedResource">
+			<![CDATA[<Window xmlns="https://github.com/avaloniaui" >
+			</Window>]]>
+
+		</File>
+		<File  name="$(Name).xaml.cs" DependsOn="$(Name).xaml" >
+			using Avalonia.Controls;
+			using Avalonia.Markup.Xaml;
+
+		namespace  ${ProjectName}
+		{
+    		public class $(Name) : Window
+    	{
+        	public $(Name)()
+        	{
+           	 	this.InitializeComponent();
+       		 }
+
+       		private void InitializeComponent()
+			{
+			var theme = new Avalonia.Themes.Default.DefaultTheme();
+			 theme.FindResource("Button");
+			AvaloniaXamlLoader.Load(this);
+			}
+    }
+}
+		</File>
+	</TemplateFiles>
+</Template>

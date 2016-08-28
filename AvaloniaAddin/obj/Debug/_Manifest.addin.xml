@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionModel>
+  <Runtime />
+  <Dependencies>
+    <Addin id="::MonoDevelop.Core" version="6.1" />
+    <Addin id="::MonoDevelop.Ide" version="6.1" />
+  </Dependencies>
+</ExtensionModel>
