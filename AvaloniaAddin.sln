@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaAddin", "AvaloniaAddin\AvaloniaAddin.csproj", "{DC0F7005-F88C-4025-8DD0-BAE0504CCA3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC0F7005-F88C-4025-8DD0-BAE0504CCA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0F7005-F88C-4025-8DD0-BAE0504CCA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0F7005-F88C-4025-8DD0-BAE0504CCA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0F7005-F88C-4025-8DD0-BAE0504CCA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
