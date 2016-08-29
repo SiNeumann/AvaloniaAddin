@@ -6,11 +6,9 @@
         <Url>https://github.com/SiNeumann/AvaloniaAddin</Url>
     </Header>
 	<Project platforms="Win32 Mac Linux">
-<<<<<<< Updated upstream
+
 		<AddinFile>AvloniaAddin/bin/Debug/AvaloniaAddin.dll</AddinFile>
-=======
-		<AddinFile>AvloniaAddin/bin/Debug/MonoDevelop.AddinMaker.dll</AddinFile>
->>>>>>> Stashed changes
+
 		<BuildFile>AvaloniaAddin.sln</BuildFile>
 		<BuildConfiguration>Debug</BuildConfiguration>
 		
