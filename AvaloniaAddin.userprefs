@@ -1,5 +1,5 @@
 ﻿<Properties StartupItem="AvaloniaAddin/AvaloniaAddin.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Log">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AvaloniaAddin Status">
     <Files>
       <File FileName="AvaloniaAddin/Properties/Manifest.addin.xml" Line="8" Column="21" />
       <File FileName="AvaloniaAddin/Xaml.xft.xml" Line="18" Column="10" />
@@ -10,8 +10,8 @@
       <File FileName="AvaloniaAddin/AvaloniaProjectFlavour.cs" Line="24" Column="1" />
       <File FileName="AvaloniaAddin/FileTemplate.xft.xml" Line="7" Column="3" />
       <File FileName="AvaloniaAddin/WindowTemplate.xft.xml" Line="20" Column="23" />
+      <File FileName="addin-project.xml" Line="1" Column="1" />
       <File FileName="AvaloniaAddin Status" />
-      <File FileName="Log" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
