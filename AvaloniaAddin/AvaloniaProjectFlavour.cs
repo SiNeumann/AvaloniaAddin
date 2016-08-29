@@ -15,15 +15,21 @@ namespace AvaloniaAddin
 		}
 		protected override void OnGetDefaultImports(System.Collections.Generic.List<string> imports)
 		{
-			var assPath= Assembly.GetExecutingAssembly().Location;
-			FileInfo info = new FileInfo(assPath);
-			var adict=info.Directory.GetDirectories().First(item => item.Name == "Assemblies");
-			var files= adict.GetFiles().Where(item => item.Name.Contains("Avalonia"));
-			foreach (var file in files) 
+			try
 			{
+				var assPath = Assembly.GetExecutingAssembly().Location;
+				FileInfo info = new FileInfo(assPath);
+				var adict = info.Directory.GetDirectories().First(item => item.Name == "Assemblies");
+				var files = adict.GetFiles().Where(item => item.Name.Contains("Avalonia"));
+				foreach (var file in files)
+				{
 
-				var refer = ProjectReference.CreateAssemblyFileReference(file.FullName);
-				Project.References.Add(refer);
+					var refer = ProjectReference.CreateAssemblyFileReference(file.FullName);
+					Project.References.Add(refer);
+				}
+			}
+			catch 
+			{
 			}
 			imports.Add("$(MSBuildExtensionsPath32)\\Microsoft\\Portable\\$(TargetFrameworkVersion)\\Microsoft.Portable.CSharp.targets");
 
