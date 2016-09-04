@@ -1,29 +1,21 @@
 ﻿<Properties StartupItem="AvaloniaAddin/AvaloniaAddin.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AvaloniaAddin Status">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="AvaloniaAddin/Properties/Manifest.addin.xml" Line="8" Column="21" />
+      <File FileName="AvaloniaAddin/Properties/Manifest.addin.xml" Line="15" Column="3" />
       <File FileName="AvaloniaAddin/Xaml.xft.xml" Line="18" Column="10" />
       <File FileName="AvaloniaAddin/packages.config" Line="1" Column="1" />
       <File FileName="AvaloniaAddin/Properties/AddinInfo.cs" Line="1" Column="1" />
       <File FileName="AvaloniaAddin/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="AvaloniaAddin/AvalonProject.xpt.xml" Line="66" Column="10" />
-      <File FileName="AvaloniaAddin/AvaloniaProjectFlavour.cs" Line="24" Column="1" />
+      <File FileName="AvaloniaAddin/AvalonProject.xpt.xml" Line="16" Column="118" />
+      <File FileName="AvaloniaAddin/AvaloniaProjectFlavour.cs" Line="60" Column="42" />
       <File FileName="AvaloniaAddin/FileTemplate.xft.xml" Line="7" Column="3" />
-      <File FileName="AvaloniaAddin/WindowTemplate.xft.xml" Line="20" Column="23" />
+      <File FileName="AvaloniaAddin/WindowTemplate.xft.xml" Line="1" Column="1" />
       <File FileName="addin-project.xml" Line="1" Column="1" />
-      <File FileName="AvaloniaAddin Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/AvaloniaProjectFlavour.cs" line="30" column="1" />
-      <Breakpoint file="/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/AvaloniaProjectFlavour.cs" line="29" column="34" />
-      <Breakpoint file="/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/AvaloniaProjectFlavour.cs" line="28" column="1" />
-      <Breakpoint file="/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/AvaloniaProjectFlavour.cs" line="26" column="1" />
-      <Breakpoint file="/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/AvaloniaProjectFlavour.cs" line="25" column="1" />
-      <Breakpoint file="/home/sigi/Projects/AvaloniaAddin/AvaloniaAddin/AvaloniaProjectFlavour.cs" line="24" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.AvaloniaAddin PreferredExecutionTarget="MonoDevelop.Default" />

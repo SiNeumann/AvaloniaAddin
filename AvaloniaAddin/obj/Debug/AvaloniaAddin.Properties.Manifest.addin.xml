@@ -10,8 +10,8 @@
 		
 		</Extension>
 	<Extension path = "/MonoDevelop/ProjectModel/ProjectModelExtensions">
-		<Condition id="MSBuildTargetIsAvailable" target="$(MSBuildExtensionsPath)\Microsoft\Portable\v4.5\Microsoft.Portable.CSharp.targets">
+
 			<ProjectFlavor  type="AvaloniaAddin.AvaloniaProjectFlavour" alias="AvaloniaPortable"/>
-		</Condition>
+		
 	</Extension>
 </ExtensionModel>
