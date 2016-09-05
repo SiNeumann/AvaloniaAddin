@@ -9,9 +9,10 @@
 		                 resource="AvaloniaAddin.AvalonProject.xpt.xml" />
 		
 		</Extension>
+		<ProjectTemplate id="AvalonDesktopProject" 
 	<Extension path = "/MonoDevelop/ProjectModel/ProjectModelExtensions">
 
-			<ProjectFlavor  type="AvaloniaAddin.AvaloniaProjectFlavour" alias="AvaloniaPortable"/>
+
 		
 	</Extension>
 </ExtensionModel>

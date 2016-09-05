@@ -1,13 +1,12 @@
 ﻿<Properties StartupItem="AvaloniaAddin/AvaloniaAddin.csproj">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AvaloniaAddin/AvalonProject.xpt.xml">
     <Files>
-      <File FileName="AvaloniaAddin/Properties/Manifest.addin.xml" Line="15" Column="3" />
+      <File FileName="AvaloniaAddin/Properties/Manifest.addin.xml" Line="12" Column="46" />
       <File FileName="AvaloniaAddin/Xaml.xft.xml" Line="18" Column="10" />
       <File FileName="AvaloniaAddin/packages.config" Line="1" Column="1" />
       <File FileName="AvaloniaAddin/Properties/AddinInfo.cs" Line="1" Column="1" />
       <File FileName="AvaloniaAddin/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="AvaloniaAddin/AvalonProject.xpt.xml" Line="16" Column="118" />
-      <File FileName="AvaloniaAddin/AvaloniaProjectFlavour.cs" Line="60" Column="42" />
+      <File FileName="AvaloniaAddin/AvalonProject.xpt.xml" Line="69" Column="119" />
       <File FileName="AvaloniaAddin/FileTemplate.xft.xml" Line="7" Column="3" />
       <File FileName="AvaloniaAddin/WindowTemplate.xft.xml" Line="1" Column="1" />
       <File FileName="addin-project.xml" Line="1" Column="1" />
